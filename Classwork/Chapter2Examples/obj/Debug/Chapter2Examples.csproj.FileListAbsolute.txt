@@ -1,0 +1,7 @@
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Chapter2Examples\bin\Debug\Chapter2Examples.exe.config
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Chapter2Examples\bin\Debug\Chapter2Examples.exe
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Chapter2Examples\bin\Debug\Chapter2Examples.pdb
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Chapter2Examples\obj\Debug\Chapter2Examples.csproj.AssemblyReference.cache
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Chapter2Examples\obj\Debug\Chapter2Examples.csproj.CoreCompileInputs.cache
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Chapter2Examples\obj\Debug\Chapter2Examples.exe
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Chapter2Examples\obj\Debug\Chapter2Examples.pdb

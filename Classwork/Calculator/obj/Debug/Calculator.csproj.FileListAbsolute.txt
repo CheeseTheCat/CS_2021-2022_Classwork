@@ -1,0 +1,10 @@
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Calculator\bin\Debug\Calculator.exe
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Calculator\bin\Debug\Calculator.pdb
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Calculator\obj\Debug\Calculator.calculator.resources
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Calculator\obj\Debug\Calculator.exe
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Calculator\obj\Debug\Calculator.pdb

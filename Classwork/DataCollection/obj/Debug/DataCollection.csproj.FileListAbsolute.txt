@@ -1,0 +1,10 @@
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\DataCollection\bin\Debug\DataCollection.exe.config
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\DataCollection\bin\Debug\DataCollection.exe
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\DataCollection\bin\Debug\DataCollection.pdb
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\DataCollection\obj\Debug\DataCollection.csproj.AssemblyReference.cache
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\DataCollection\obj\Debug\DataCollection.dataForm.resources
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\DataCollection\obj\Debug\DataCollection.Properties.Resources.resources
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\DataCollection\obj\Debug\DataCollection.csproj.GenerateResource.cache
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\DataCollection\obj\Debug\DataCollection.csproj.CoreCompileInputs.cache
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\DataCollection\obj\Debug\DataCollection.exe
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\DataCollection\obj\Debug\DataCollection.pdb
