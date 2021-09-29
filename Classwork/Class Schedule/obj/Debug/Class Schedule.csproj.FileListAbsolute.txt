@@ -1,0 +1,7 @@
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Class Schedule\bin\Debug\Class Schedule.exe.config
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Class Schedule\bin\Debug\Class Schedule.exe
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Class Schedule\bin\Debug\Class Schedule.pdb
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Class Schedule\obj\Debug\Class Schedule.csproj.AssemblyReference.cache
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Class Schedule\obj\Debug\Class Schedule.csproj.CoreCompileInputs.cache
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Class Schedule\obj\Debug\Class Schedule.exe
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Class Schedule\obj\Debug\Class Schedule.pdb

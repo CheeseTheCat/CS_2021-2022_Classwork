@@ -18,9 +18,9 @@ namespace Calculator
     public partial class calculator : Form
     {
         String output;
-        int operand1;
-        int operand2;
-        String opp;
+        double operand1;
+        double operand2;
+        String opp = "";
 
 
         public calculator()
@@ -38,7 +38,48 @@ namespace Calculator
 
         private void bttnEquals_Click(object sender, EventArgs e)
         {
-            
+            // things
+
+            double x = 0;
+            operand2 = double.Parse(output);
+            if (opp != "")
+            {
+                if (opp == "+")
+                {
+                    x = operand1 + operand2;
+                }
+                else if (opp == "-")
+                {
+                    x = operand1 - operand2;
+                }
+                else if (opp == "*")
+                {
+                    x = operand1 * operand2;
+                }
+                else if (opp == "/")
+                {
+                    if (operand2 != 0)
+                    {
+                        x = operand1 / operand2;
+                    }
+                    else
+                    {
+                        // If they try to divide by zero
+                        MessageBox.Show("YoUr CalCulAtOr hAs dIeD", "iT diEd", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+
+                output = x.ToString();
+                output_txtbox.Text = output;
+                opp = "";
+
+            }
+            else
+            {
+                return;
+            }
+
+
         }
 
         private void bttn7_Click(object sender, EventArgs e)
@@ -194,32 +235,83 @@ namespace Calculator
 
         private void bttndot_Click(object sender, EventArgs e)
         {
-
+            if (output.Contains("."))
+            {
+                return;
+            }
+            else
+            {
+                output = output + ".";
+                output_txtbox.Text = output;
+            }
         }
 
         private void bttnDiv_Click(object sender, EventArgs e)
         {
-
+            // storing operand1 and setting the opperator to "/" then clearing screen
+            operand1 = double.Parse(output);
+            opp = "/";
+            output = "0";
+            output_txtbox.Text = output;
         }
 
         private void bttnTimes_Click(object sender, EventArgs e)
         {
-
+            // storing operand1 and setting the opperator to "*" then clearing screen
+            operand1 = double.Parse(output);
+            opp = "*";
+            output = "0";
+            output_txtbox.Text = output;
         }
 
         private void bttnAdd_Click(object sender, EventArgs e)
         {
-            operand1 = Int32.Parse(output);
+            // storing operand1 and setting the opperator to "+" then clearing screen
+            operand1 = double.Parse(output);
+            opp = "+";
+            output = "0";
+            output_txtbox.Text = output;
         }
 
         private void bttnSub_Click(object sender, EventArgs e)
         {
-
+            // storing operand1 and setting the opperator to "-" then clearing screen
+            operand1 = double.Parse(output);
+            opp = "-";
+            output = "0";
+            output_txtbox.Text = output;
         }
 
         private void bttnClear_Click(object sender, EventArgs e)
         {
+            // Clears everything
             output = "0";
+            operand1 = 0;
+            operand2 = 0;
+            opp = "";
+            output_txtbox.Text = output;
+        }
+
+        private void bttnNeg_Click(object sender, EventArgs e)
+        {
+            bool negitive = output.StartsWith("-");
+
+            if (negitive)
+            {
+                output = output.Remove(0, 1);
+            }
+            else
+            {
+                output = "-" + output;
+            }
+
+            output_txtbox.Text = output;
+        }
+
+        private void bttnpie(object sender, EventArgs e)
+        {
+            output = "3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679";
+
             output_txtbox.Text = output;
         }
     }

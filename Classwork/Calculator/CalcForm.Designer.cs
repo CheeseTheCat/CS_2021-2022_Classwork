@@ -48,6 +48,8 @@ namespace Calculator
             this.bttnSub = new System.Windows.Forms.Button();
             this.bttnTimes = new System.Windows.Forms.Button();
             this.bttnClear = new System.Windows.Forms.Button();
+            this.bttnNeg = new System.Windows.Forms.Button();
+            this.bttnPie = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // output_txtbox
@@ -192,11 +194,29 @@ namespace Calculator
             this.bttnClear.UseVisualStyleBackColor = false;
             this.bttnClear.Click += new System.EventHandler(this.bttnClear_Click);
             // 
+            // bttnNeg
+            // 
+            this.bttnNeg.BackColor = System.Drawing.SystemColors.ButtonFace;
+            resources.ApplyResources(this.bttnNeg, "bttnNeg");
+            this.bttnNeg.Name = "bttnNeg";
+            this.bttnNeg.UseVisualStyleBackColor = false;
+            this.bttnNeg.Click += new System.EventHandler(this.bttnNeg_Click);
+            // 
+            // bttnPie
+            // 
+            this.bttnPie.BackColor = System.Drawing.SystemColors.ButtonFace;
+            resources.ApplyResources(this.bttnPie, "bttnPie");
+            this.bttnPie.Name = "bttnPie";
+            this.bttnPie.UseVisualStyleBackColor = false;
+            this.bttnPie.Click += new System.EventHandler(this.bttnpie);
+            // 
             // calculator
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Controls.Add(this.bttnPie);
+            this.Controls.Add(this.bttnNeg);
             this.Controls.Add(this.bttnClear);
             this.Controls.Add(this.bttnTimes);
             this.Controls.Add(this.bttnSub);
@@ -243,6 +263,8 @@ namespace Calculator
         private System.Windows.Forms.Button bttnSub;
         private System.Windows.Forms.Button bttnTimes;
         private System.Windows.Forms.Button bttnClear;
+        private System.Windows.Forms.Button bttnNeg;
+        private System.Windows.Forms.Button bttnPie;
     }
 }
 
