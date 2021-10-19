@@ -40,12 +40,24 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Decoration
-    uniqueID: 1335965449
-    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Platforms
+    uniqueID: 77255893
+    locked: 0
+  - name: Decoration
+    uniqueID: 1335965449
+    locked: 0
   - name: PlayerLayer
     uniqueID: 445593185
+    locked: 0
+  - name: Objects
+    uniqueID: 3982009317
+    locked: 0
+  - name: FillLayer
+    uniqueID: 130887569
+    locked: 0
+  - name: Liquid
+    uniqueID: 2873758117
     locked: 0

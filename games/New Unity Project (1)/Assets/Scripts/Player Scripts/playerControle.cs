@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class playerControle : MonoBehaviour
 {
+    public int playerLives = 3;
+    public int score;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,8 +19,22 @@ public class playerControle : MonoBehaviour
         
     }
 
+    public void addScore(int amount)
+    {
+        score += amount;
+    }
+
     public void gameOver()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);// SceneManager.LoadScene("GameOver");
+        playerLives --;
+        if (playerLives >= 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        else
+        {
+            SceneManager.LoadScene("GameOver");
+        }
+         
     }
 }

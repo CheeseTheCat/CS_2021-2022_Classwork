@@ -1,0 +1,10 @@
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Personal Hello Activity\bin\Debug\Personal Hello Activity.exe.config
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Personal Hello Activity\bin\Debug\Personal Hello Activity.exe
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Personal Hello Activity\bin\Debug\Personal Hello Activity.pdb
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Personal Hello Activity\obj\Debug\Personal Hello Activity.csproj.AssemblyReference.cache
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Personal Hello Activity\obj\Debug\Personal_Hello_Activity.PersonalHelloActivity.resources
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Personal Hello Activity\obj\Debug\Personal_Hello_Activity.Properties.Resources.resources
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Personal Hello Activity\obj\Debug\Personal Hello Activity.csproj.GenerateResource.cache
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Personal Hello Activity\obj\Debug\Personal Hello Activity.csproj.CoreCompileInputs.cache
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Personal Hello Activity\obj\Debug\Personal Hello Activity.exe
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\Classwork\Personal Hello Activity\obj\Debug\Personal Hello Activity.pdb

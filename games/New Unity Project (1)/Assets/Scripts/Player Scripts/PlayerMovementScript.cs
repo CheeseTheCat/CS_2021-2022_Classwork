@@ -7,6 +7,7 @@ public class PlayerMovementScript : MonoBehaviour
     public float movmentSpeed;
     public float jumpForce;
     public Rigidbody2D rig;
+    public SpriteRenderer spRender;
 
     // FixedUpdate called every 0.02 seconds
     void FixedUpdate()
@@ -18,6 +19,20 @@ public class PlayerMovementScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (rig.velocity.x > 0)
+        {
+            // Moving right
+            spRender.flipX = false;
+        }
+        else if (rig.velocity.x < 0)
+        {
+            // Moving Left
+            spRender.flipX = true;
+        }
+
+
+
+
         if (Input.GetKeyDown(KeyCode.UpArrow) && IsGrounded())
         {
             rig.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);

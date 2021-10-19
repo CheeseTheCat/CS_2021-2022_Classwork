@@ -53,10 +53,12 @@
     <UnityVersion>2020.3.18f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Player Scripts\PlayerMovementScript.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\Enemy_SidetoSide.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\PlayerMovementScript.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\playerControle.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\EnemyControler.cs" />
+    <Compile Include="Assets\Scripts\Enviornment\ButtonControler.cs" />
+    <Compile Include="Assets\Scripts\Enviornment\GemScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
