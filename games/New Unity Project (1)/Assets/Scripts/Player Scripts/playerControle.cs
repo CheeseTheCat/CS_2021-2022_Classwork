@@ -7,6 +7,7 @@ public class playerControle : MonoBehaviour
 {
     public int playerLives = 3;
     public int score;
+    public UIScript ui;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,7 @@ public class playerControle : MonoBehaviour
     public void addScore(int amount)
     {
         score += amount;
+        ui.setScoreText(score);
     }
 
     public void gameOver()
