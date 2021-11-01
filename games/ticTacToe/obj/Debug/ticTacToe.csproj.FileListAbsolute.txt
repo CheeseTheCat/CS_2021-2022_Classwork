@@ -1,0 +1,10 @@
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\games\ticTacToe\bin\Debug\ticTacToe.exe.config
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\games\ticTacToe\bin\Debug\ticTacToe.exe
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\games\ticTacToe\bin\Debug\ticTacToe.pdb
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\games\ticTacToe\obj\Debug\ticTacToe.csproj.AssemblyReference.cache
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\games\ticTacToe\obj\Debug\ticTacToe.ticTacToeForm.resources
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\games\ticTacToe\obj\Debug\ticTacToe.Properties.Resources.resources
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\games\ticTacToe\obj\Debug\ticTacToe.csproj.GenerateResource.cache
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\games\ticTacToe\obj\Debug\ticTacToe.csproj.CoreCompileInputs.cache
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\games\ticTacToe\obj\Debug\ticTacToe.exe
+C:\Users\james.hooper\Desktop\CS_2021-2022_Classwork\games\ticTacToe\obj\Debug\ticTacToe.pdb
