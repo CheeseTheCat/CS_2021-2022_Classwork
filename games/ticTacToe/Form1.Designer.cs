@@ -42,6 +42,8 @@ namespace ticTacToe
             this.xScoreLbl = new System.Windows.Forms.Label();
             this.oScoreLable = new System.Windows.Forms.Label();
             this.botmLeftBttn = new System.Windows.Forms.Button();
+            this.scoreResetBttn = new System.Windows.Forms.Button();
+            this.pieBttn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // topLeftSquareBttn
@@ -152,7 +154,8 @@ namespace ticTacToe
             // 
             // resetBttn
             // 
-            this.resetBttn.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.resetBttn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.resetBttn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.resetBttn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.resetBttn.Location = new System.Drawing.Point(330, 292);
             this.resetBttn.Name = "resetBttn";
@@ -169,7 +172,7 @@ namespace ticTacToe
             this.xScoreLbl.Name = "xScoreLbl";
             this.xScoreLbl.Size = new System.Drawing.Size(90, 32);
             this.xScoreLbl.TabIndex = 11;
-            this.xScoreLbl.Text = "X =  ";
+            this.xScoreLbl.Text = "X = 0";
             this.xScoreLbl.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // oScoreLable
@@ -179,7 +182,7 @@ namespace ticTacToe
             this.oScoreLable.Name = "oScoreLable";
             this.oScoreLable.Size = new System.Drawing.Size(90, 32);
             this.oScoreLable.TabIndex = 12;
-            this.oScoreLable.Text = "O =  ";
+            this.oScoreLable.Text = "O = 0";
             this.oScoreLable.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // botmLeftBttn
@@ -194,12 +197,38 @@ namespace ticTacToe
             this.botmLeftBttn.UseVisualStyleBackColor = false;
             this.botmLeftBttn.Click += new System.EventHandler(this.topLeftSquareBttn_Click);
             // 
+            // scoreResetBttn
+            // 
+            this.scoreResetBttn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.scoreResetBttn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.scoreResetBttn.ForeColor = System.Drawing.Color.White;
+            this.scoreResetBttn.Location = new System.Drawing.Point(330, 263);
+            this.scoreResetBttn.Name = "scoreResetBttn";
+            this.scoreResetBttn.Size = new System.Drawing.Size(77, 23);
+            this.scoreResetBttn.TabIndex = 14;
+            this.scoreResetBttn.Text = "Reset Score";
+            this.scoreResetBttn.UseVisualStyleBackColor = false;
+            this.scoreResetBttn.Click += new System.EventHandler(this.scoreResetBttn_Click);
+            // 
+            // pieBttn
+            // 
+            this.pieBttn.ForeColor = System.Drawing.Color.Black;
+            this.pieBttn.Location = new System.Drawing.Point(461, 195);
+            this.pieBttn.Name = "pieBttn";
+            this.pieBttn.Size = new System.Drawing.Size(75, 23);
+            this.pieBttn.TabIndex = 15;
+            this.pieBttn.Text = "Pie Button";
+            this.pieBttn.UseVisualStyleBackColor = true;
+            this.pieBttn.Click += new System.EventHandler(this.pieBttn_Click);
+            // 
             // ticTacToeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(434, 337);
+            this.ClientSize = new System.Drawing.Size(432, 337);
+            this.Controls.Add(this.pieBttn);
+            this.Controls.Add(this.scoreResetBttn);
             this.Controls.Add(this.botmLeftBttn);
             this.Controls.Add(this.oScoreLable);
             this.Controls.Add(this.xScoreLbl);
@@ -215,7 +244,8 @@ namespace ticTacToe
             this.Controls.Add(this.topLeftSquareBttn);
             this.ForeColor = System.Drawing.Color.White;
             this.Name = "ticTacToeForm";
-            this.Text = "TicTacToe";
+            this.Text = "OvX V0.1";
+            this.Load += new System.EventHandler(this.ticTacToeForm_Load);
             this.ResumeLayout(false);
 
         }
@@ -235,6 +265,8 @@ namespace ticTacToe
         private System.Windows.Forms.Label xScoreLbl;
         private System.Windows.Forms.Label oScoreLable;
         private System.Windows.Forms.Button botmLeftBttn;
+        private System.Windows.Forms.Button scoreResetBttn;
+        private System.Windows.Forms.Button pieBttn;
     }
 }
 
