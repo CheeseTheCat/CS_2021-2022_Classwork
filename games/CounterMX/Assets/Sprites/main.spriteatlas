@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: main
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: f993de49dbf65f4469ae1244fd9686d4, type: 3}
+    - {fileID: 2800000, guid: 10bbf09c532f9e34d86a8cc234020aa7, type: 3}
+    - {fileID: 2800000, guid: aa48b8c30ab359d4b9445634739a10d0, type: 3}
+    - {fileID: 2800000, guid: b141c0668a9486d4caa3c1c7f693f084, type: 3}
+    - {fileID: 2800000, guid: 460a376354633944397576ce18d4b808, type: 3}
+    - {fileID: 2800000, guid: 334c95b9fcb67f341ae9125f02bc4e8c, type: 3}
+    - {fileID: 2800000, guid: 0406231701bc5764c9644ea1ae18a74c, type: 3}
+    - {fileID: 2800000, guid: 8ecb489d73c19c84b96a853bb564de8a, type: 3}
+    - {fileID: 2800000, guid: 74512dbb885263c4b96f225f813781d6, type: 3}
+    - {fileID: 2800000, guid: c2f3774e15fa60340a866d3a1eed0a2c, type: 3}
+    - {fileID: 2800000, guid: abf61b9944c0c2f4b8987a39d87f9cae, type: 3}
+    totalSpriteSurfaceArea: 126088
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 460a376354633944397576ce18d4b808, type: 3}
+  - {fileID: 21300000, guid: aa48b8c30ab359d4b9445634739a10d0, type: 3}
+  - {fileID: 21300000, guid: b141c0668a9486d4caa3c1c7f693f084, type: 3}
+  - {fileID: 21300000, guid: 0406231701bc5764c9644ea1ae18a74c, type: 3}
+  - {fileID: 21300000, guid: f993de49dbf65f4469ae1244fd9686d4, type: 3}
+  - {fileID: 21300000, guid: abf61b9944c0c2f4b8987a39d87f9cae, type: 3}
+  - {fileID: 21300000, guid: 334c95b9fcb67f341ae9125f02bc4e8c, type: 3}
+  - {fileID: 21300000, guid: 74512dbb885263c4b96f225f813781d6, type: 3}
+  - {fileID: 21300000, guid: 10bbf09c532f9e34d86a8cc234020aa7, type: 3}
+  - {fileID: 21300000, guid: 8ecb489d73c19c84b96a853bb564de8a, type: 3}
+  - {fileID: 21300000, guid: c2f3774e15fa60340a866d3a1eed0a2c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - sprite_000
+  - spaceStation_028
+  - spaceStation_030
+  - sprite_002
+  - enemyFloating_1
+  - sprite_142
+  - sprite_001
+  - sprite_140
+  - spaceMissiles_006
+  - sprite_003
+  - sprite_141
+  m_RenderDataMap: {}
+  m_Tag: main
+  m_IsVariant: 0
