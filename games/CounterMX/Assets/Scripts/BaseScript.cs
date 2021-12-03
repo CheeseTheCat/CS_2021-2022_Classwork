@@ -5,7 +5,7 @@ using UnityEngine;
 public class BaseScript : MonoBehaviour
 {
     [SerializeField]
-    private float curHP;
+    public float curHP;
 
     [SerializeField]
     private float maxHP;
@@ -30,6 +30,6 @@ public class BaseScript : MonoBehaviour
     private void die()
     {
         Debug.Log("this base has died");
-        Destroy(this);
+        Destroy(this.gameObject);
     }
 }

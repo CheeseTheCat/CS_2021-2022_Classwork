@@ -14,6 +14,8 @@ public class RocketScript : MonoBehaviour
     private Rigidbody2D rig;
     [SerializeField]
     private AudioSource audioSrc;
+    [SerializeField]
+    private GameObject exp;
 
 
     private void Awake()
@@ -21,29 +23,45 @@ public class RocketScript : MonoBehaviour
         rig = GetComponent<Rigidbody2D> ();
         audioSrc = GetComponent<AudioSource>();
         audioSrc.PlayOneShot(audioClips[0]);
-        Destroy(this.gameObject, 3.5f);
+        Destroy(this.gameObject, 6f);
     }
 
 
     public void launch(Vector2 direction, float speed)
     {
         rig.AddForce(direction.normalized * speed, ForceMode2D.Impulse);
+
+        float deg = Mathf.Rad2Deg * Mathf.Atan2(direction.y, direction.x) - 90f;
+        transform.eulerAngles = Vector3.forward * deg;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        audioSrc.PlayOneShot(audioClips[1]);
-        Destroy(this.gameObject, audioClips[1].length);
+        if (!collision.gameObject.CompareTag("rocket"))
+        {
+            this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+            this.gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
+
+            GameObject explosion = Instantiate(exp);
+            explosion.transform.position = transform.position;
+
+
+            audioSrc.PlayOneShot(audioClips[1]);
+            Destroy(this.gameObject, audioClips[1].length);
+        }
+        
     }
     // Start is called before the first frame update
     void Start()
     {
-        launch( new Vector2(0, 0), 5f);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(Vector3.forward * 5f);
+        
+        float deg = Mathf.Rad2Deg * Mathf.Atan2(rig.velocity.y, rig.velocity.x) - 90f;
+        transform.eulerAngles = Vector3.forward * deg;
     }
 }

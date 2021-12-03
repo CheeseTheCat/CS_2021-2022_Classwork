@@ -66,6 +66,17 @@ namespace ticTacToe
                     oScore++;
                 }
                 update_scores();
+                turn = XToken;
+                topLeftSquareBttn.Text = "";
+                topMidBttn.Text = "";
+                topRightBttn.Text = "";
+                midLeftBttn.Text = "";
+                midMidBttn.Text = "";
+                midRightBttn.Text = "";
+                botmLeftBttn.Text = "";
+                botmMidBttn.Text = "";
+                botmRightBttn.Text = "";
+                update_message();
             }
             // Reset board
             else
@@ -144,6 +155,8 @@ namespace ticTacToe
         private void update_scores()
         {
             // update the player scores
+            xScoreLbl.Text = (XToken + " = " + xScore.ToString());
+            oScoreLable.Text = (OToken + " = " + oScore.ToString());
         }
 
         private void update_message()
@@ -170,7 +183,9 @@ namespace ticTacToe
 
         private void scoreResetBttn_Click(object sender, EventArgs e)
         {
-
+            xScore = 0;
+            oScore = 0;
+            update_scores();
         }
 
         private void pieBttn_Click(object sender, EventArgs e)

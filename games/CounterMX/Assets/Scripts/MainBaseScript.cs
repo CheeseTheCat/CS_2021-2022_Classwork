@@ -26,6 +26,6 @@ public class MainBaseScript : BaseScript
     private void fire()
     {
         RocketScript rocketInstance = Instantiate(rocket);
-        rocketInstance.launch(Camera.main.ScreenToWorldPoint(Input.mousePosition)- transform.position, 5f);
+        rocketInstance.launch(Camera.main.ScreenToWorldPoint(Input.mousePosition)- transform.position, 7f);
     }
 }

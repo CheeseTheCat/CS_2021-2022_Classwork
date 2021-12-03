@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - bunker
   layers:
   - Default
   - TransparentFX
@@ -38,9 +40,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 1693664283
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: bunker
     uniqueID: 2919813403
+    locked: 0
+  - name: Missiles
+    uniqueID: 858155207
+    locked: 0
+  - name: Explode
+    uniqueID: 3431994857
+    locked: 0
+  - name: Cursor
+    uniqueID: 677884507
     locked: 0
