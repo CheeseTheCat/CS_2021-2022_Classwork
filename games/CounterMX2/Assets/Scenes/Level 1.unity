@@ -348,6 +348,7 @@ MonoBehaviour:
   gameMenuText: {fileID: 815383079}
   nextScene: Cut 1
   roundLength: 20
+  numWaves: 10
   spawner: {fileID: 465576589}
   bunkers: {fileID: 1431400929}
   gameMenu: {fileID: 1806337788}

@@ -14,6 +14,8 @@ public class GameControler : MonoBehaviour
     private TMPro.TextMeshProUGUI gameMenuText;
     public string nextScene;
     public float roundLength;
+    [SerializeField]
+    private int numWaves;
 
 
     [SerializeField]
@@ -49,6 +51,7 @@ public class GameControler : MonoBehaviour
     void completeRound()
     {
         isRoundOver = true;
+        totalPoints = PlayerPrefs.GetInt("score");
         totalPoints += bunkers.baseCount * 100;
         if (bunkers.baseCount == 5)
         {
@@ -64,7 +67,10 @@ public class GameControler : MonoBehaviour
 
         waveCount++;
 
-        
+        PlayerPrefs.SetInt("score", totalPoints);
+
+
+
     }
 
     public void startNextRound()
@@ -78,7 +84,7 @@ public class GameControler : MonoBehaviour
         spawner.maxTime /= 1.1f;
         spawner.minTime /= 1.1f;
 
-        if (waveCount > 10)
+        if (waveCount > numWaves)
         {
             SceneManager.LoadScene(nextScene);
         }
