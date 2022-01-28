@@ -215,7 +215,7 @@
                 {
                     "name": "",
                     "id": "f4b62f5d-ff6f-44d6-a5fa-dfd4907d9acc",
-                    "path": "<Gamepad>/leftStick/down",
+                    "path": "<Gamepad>/rightStick/down",
                     "interactions": "",
                     "processors": "",
                     "groups": "Controller",
@@ -237,7 +237,7 @@
                 {
                     "name": "",
                     "id": "0421fc49-a4f3-4809-8282-4448f7492d40",
-                    "path": "<XInputController>/leftStick/down",
+                    "path": "<XInputController>/rightStick/down",
                     "interactions": "",
                     "processors": "",
                     "groups": "Xbox",
